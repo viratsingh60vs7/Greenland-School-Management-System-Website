@@ -1,0 +1,2038 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenland School - School Management System &amp; Portal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================================================================= -->
+    <!-- 1. PUBLIC INSTITUTIONAL SCHOOL WEBSITE                           -->
+    <!-- ================================================================= -->
+    <div id="public-website" style="display: none;">
+
+        <!-- Top Announcement Bar -->
+        <div class="top-bar">
+            <div class="top-bar-info">
+                <span>📍 Khadpathar, Renukoot, Sonbhadra, Uttar Pradesh - 231217</span>
+                <span>📞 +91 761 700 5055, +91 761 700 5056</span>
+                <span>✉️ info@greenlandschool.net</span>
+            </div>
+            <div class="top-bar-right">
+                <span>Office: Mon - Fri (8:00 AM - 4:30 PM)</span>
+                <a href="#login" onclick="openPortalLogin()" style="color:#fbbf24; font-weight:700;">★ Portal Login</a>
+            </div>
+        </div>
+
+        <!-- Main Navigation Header -->
+        <header class="main-navbar">
+            <div class="brand-logo" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                <div class="crest-icon"><img src="assets/Logo_Greenland_School.png" class="img-fluid" alt="G1"></div>
+                <div class="brand-text">
+                    <h1>Greenland School</h1>
+                    <p>Excellence • Character • Leadership</p>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#facilities">Campus Life</a></li>
+                <li><a href="#notices">Notice Board</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#admissions" class="btn btn-secondary btn-sm">Apply Online</a>
+                <button class="btn btn-primary btn-sm" onclick="openPortalLogin()">
+                    🔐 SMS Portal Login
+                </button>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="badge-tag">✨ Admissions Open for 2026/2027 Academic Session</div>
+                <h1 class="hero-title">
+                    Empowering Minds, Shaping <span>Future Leaders</span> of Tomorrow
+                </h1>
+                <p class="hero-subtitle">
+                    At Greenland School, we cultivate high academic intellect, moral integrity, 
+                    and practical innovation through world-class STEM, arts, and leadership programs.
+                </p>
+                <div class="hero-cta">
+                    <a href="#admissions" class="btn btn-secondary">Apply for Admission</a>
+                    <button class="btn btn-light" onclick="openPortalLogin()">
+                        🚀 Launch Management Portal
+                    </button>
+                    <a href="#facilities" class="btn btn-outline" style="color:white; border-color:rgba(255,255,255,0.6);">
+                        Explore Campus Tour
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Statistics Counter Ribbon -->
+        <div class="stats-ribbon">
+            <div class="stat-item">
+                <div class="stat-number">1,450+</div>
+                <div class="stat-label">Enrolled Students</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98.6%</div>
+                <div class="stat-label">WAEC &amp; Cambridge Pass Rate</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">68</div>
+                <div class="stat-label">Certified Faculty &amp; Mentors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">University Placement</div>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <section id="about" class="section section-alt">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&amp;w=1000&amp;auto=format&amp;fit=crop" class="about-img-main" alt="Students in Library">
+                        <div class="about-badge-card">
+                            <h4>25+ Years</h4>
+                            <p>Of Academic Distinction &amp; Nurturing Values</p>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-subtitle">Welcome to Greenland School</span>
+                        <h2 class="section-title" style="text-align:left; margin-bottom:16px;">
+                            Inspiring Every Student to Discover Their True Potential
+                        </h2>
+                        <p style="color:#475569; margin-bottom:16px;">
+                            Founded on the bedrock of academic excellence and sound character, Greenland School 
+                            provides a supportive, stimulating learning ecosystem where students from Nursery through 
+                            Senior Secondary flourish intellectually, socially, and emotionally.
+                        </p>
+                        <p style="color:#475569; margin-bottom:24px;">
+                            Our students consistently outperform national benchmarks in science competitions, Olympiads, 
+                            arts festivals, and international university entrance examinations.
+                        </p>
+
+                        <div class="values-list">
+                            <div class="value-item">
+                                <div class="value-icon">✓</div>
+                                <div>
+                                    <strong>Academic Rigour</strong>
+                                    <div style="font-size:0.85rem; color:#64748b;">Blended British &amp; Nigerian curriculum.</div>
+                                </div>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">★</div>
+                                <div>
+                                    <strong>Moral Integrity</strong>
+                                    <div style="font-size:0.85rem; color:#64748b;">Character, discipline, and ethical leadership.</div>
+                                </div>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">⚡</div>
+                                <div>
+                                    <strong>STEM &amp; Robotics</strong>
+                                    <div style="font-size:0.85rem; color:#64748b;">Coding, electronics, and digital lab workshops.</div>
+                                </div>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">♥</div>
+                                <div>
+                                    <strong>Holistic Care</strong>
+                                    <div style="font-size:0.85rem; color:#64748b;">Personalized pastoral support &amp; mentoring.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Programs Section -->
+        <section id="academics" class="section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Comprehensive Educational Journey</span>
+                    <h2 class="section-title">Our Academic Wings</h2>
+                    <p class="section-description">
+                        Structured learning pathways designed to guide every child from early sensory discovery 
+                        to competitive university readiness.
+                    </p>
+                </div>
+
+                <div class="program-cards">
+                    <!-- Nursery -->
+                    <div class="program-card">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&amp;w=600&amp;auto=format&amp;fit=crop" class="program-img" alt="Early Years">
+                        <div class="program-body">
+                            <span class="program-level">Early Years</span>
+                            <h3 class="program-title">Nursery &amp; Kindergarten</h3>
+                            <p class="program-desc">
+                                Play-based, Montessori-infused early childhood education nurturing literacy, 
+                                numeracy, social skills, and creative imagination.
+                            </p>
+                            <ul class="program-features">
+                                <li>✓ Phonics &amp; Early Reading</li>
+                                <li>✓ Creative Arts &amp; Motor Skills</li>
+                                <li>✓ Child-friendly Play Arena</li>
+                            </ul>
+                            <a href="#admissions" class="btn btn-outline btn-sm">Enroll Child</a>
+                        </div>
+                    </div>
+
+                    <!-- Primary -->
+                    <div class="program-card">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&amp;w=600&amp;auto=format&amp;fit=crop" class="program-img" alt="Primary School">
+                        <div class="program-body">
+                            <span class="program-level">Primary School</span>
+                            <h3 class="program-title">Primary Grades (1 - 6)</h3>
+                            <p class="program-desc">
+                                Solid foundations in core mathematics, science inquiries, language arts, 
+                                and digital literacy with hands-on experiment modules.
+                            </p>
+                            <ul class="program-features">
+                                <li>✓ Core STEM Foundation</li>
+                                <li>✓ French &amp; Modern Languages</li>
+                                <li>✓ Computational Thinking</li>
+                            </ul>
+                            <a href="#admissions" class="btn btn-outline btn-sm">Enroll Child</a>
+                        </div>
+                    </div>
+
+                    <!-- Junior Secondary -->
+                    <div class="program-card">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&amp;w=600&amp;auto=format&amp;fit=crop" class="program-img" alt="Junior Secondary">
+                        <div class="program-body">
+                            <span class="program-level">Junior Secondary</span>
+                            <h3 class="program-title">JSS (Grades 7 - 9)</h3>
+                            <p class="program-desc">
+                                Preparing adolescents with analytical problem-solving, foundational sciences, 
+                                social studies, and technical drawing.
+                            </p>
+                            <ul class="program-features">
+                                <li>✓ Basic Science &amp; Technology</li>
+                                <li>✓ Civic &amp; Leadership Projects</li>
+                                <li>✓ BECE &amp; Checkpoint Prep</li>
+                            </ul>
+                            <a href="#admissions" class="btn btn-outline btn-sm">Enroll Child</a>
+                        </div>
+                    </div>
+
+                    <!-- Senior Secondary -->
+                    <div class="program-card">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&amp;w=600&amp;auto=format&amp;fit=crop" class="program-img" alt="Senior Secondary">
+                        <div class="program-body">
+                            <span class="program-level">Senior Secondary</span>
+                            <h3 class="program-title">SSS (Grades 10 - 12)</h3>
+                            <p class="program-desc">
+                                Specialized academic streams (Sciences, Commercial, Humanities) oriented 
+                                toward WAEC, NECO, UTME, SAT, and Cambridge A-Levels.
+                            </p>
+                            <ul class="program-features">
+                                <li>✓ Pure Sciences &amp; Advanced Math</li>
+                                <li>✓ Economics &amp; Accounting</li>
+                                <li>✓ University Guidance &amp; Mentorship</li>
+                            </ul>
+                            <a href="#admissions" class="btn btn-outline btn-sm">Enroll Child</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities & Campus Tour -->
+        <section id="facilities" class="section section-alt">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">World-Class Infrastructure</span>
+                    <h2 class="section-title">Life &amp; Facilities at Greenland School</h2>
+                    <p class="section-description">
+                        A secure, technologically enriched, and serene campus environment built for growth, 
+                        exploration, and safety.
+                    </p>
+                </div>
+
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&amp;w=800&amp;auto=format&amp;fit=crop" class="facility-img" alt="Science Laboratory">
+                        <div class="facility-overlay">
+                            <h3 class="facility-title">Ultra-Modern STEM Labs</h3>
+                            <p class="facility-desc">Fully equipped physics, chemistry, biology, and robotics research workstations.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility-card">
+                        <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&amp;w=800&amp;auto=format&amp;fit=crop" class="facility-img" alt="Digital Library">
+                        <div class="facility-overlay">
+                            <h3 class="facility-title">Digital E-Library &amp; Resource Hub</h3>
+                            <p class="facility-desc">Over 15,000 physical volumes, research computers, and online academic journal access.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility-card">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&amp;w=800&amp;auto=format&amp;fit=crop" class="facility-img" alt="Sports Center">
+                        <div class="facility-overlay">
+                            <h3 class="facility-title">Sports Complex &amp; Arena</h3>
+                            <p class="facility-desc">Standard football pitch, synthetic athletics track, basketball courts, and swimming pool.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility-card">
+                        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&amp;w=800&amp;auto=format&amp;fit=crop" class="facility-img" alt="Smart Classrooms">
+                        <div class="facility-overlay">
+                            <h3 class="facility-title">Interactive Smart Classrooms</h3>
+                            <p class="facility-desc">Digital projectors, multimedia interactive boards, and ergonomic learning furniture.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility-card">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&amp;w=800&amp;auto=format&amp;fit=crop" class="facility-img" alt="Auditorium">
+                        <div class="facility-overlay">
+                            <h3 class="facility-title">Performing Arts Auditorium</h3>
+                            <p class="facility-desc">A 1,000-seat theater for school drama, musical productions, debaters, and convocations.</p>
+                        </div>
+                    </div>
+
+                    <div class="facility-card">
+                        <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&amp;w=800&amp;auto=format&amp;fit=crop" class="facility-img" alt="School Bus Fleet">
+                        <div class="facility-overlay">
+                            <h3 class="facility-title">Safe School Bus Fleet</h3>
+                            <p class="facility-desc">GPS-tracked, air-conditioned bus services covering all major residential corridors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admissions Inquiry Section -->
+        <section id="admissions" class="section">
+            <div class="section-container">
+                <div class="admissions-box">
+                    <div class="admissions-info">
+                        <span class="section-subtitle">Join Our Academy</span>
+                        <h3>Admission Process for 2026/2027</h3>
+                        <p style="color:#64748b; margin-bottom:24px;">
+                            We invite prospective students and parents to begin their journey with us. 
+                            Our admission is merit-based through diagnostic assessment and interactive family interview.
+                        </p>
+
+                        <div class="step-item">
+                            <div class="step-num">1</div>
+                            <div>
+                                <strong>Submit Online Inquiry</strong>
+                                <p style="font-size:0.85rem; color:#64748b;">Fill out the candidate details form to receive a prompt tracking ID.</p>
+                            </div>
+                        </div>
+
+                        <div class="step-item">
+                            <div class="step-num">2</div>
+                            <div>
+                                <strong>Diagnostic Assessment</strong>
+                                <p style="font-size:0.85rem; color:#64748b;">Prospective students take a general aptitude test in English, Math &amp; Logic.</p>
+                            </div>
+                        </div>
+
+                        <div class="step-item">
+                            <div class="step-num">3</div>
+                            <div>
+                                <strong>Offer &amp; Enrollment</strong>
+                                <p style="font-size:0.85rem; color:#64748b;">Successful candidates receive admission letters and portal login credentials.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="admissions-form-wrap">
+                        <form id="admission-inquiry-form">
+                            <h4 style="font-size:1.25rem; font-weight:700; color:#1e293b; margin-bottom:16px;">
+                                Candidate Admission Inquiry Form
+                            </h4>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label">Student Full Name *</label>
+                                    <input type="text" id="adm-student-name" class="form-control" placeholder="e.g. Virat Singh" required="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Parent / Guardian Name *</label>
+                                    <input type="text" id="adm-parent-name" class="form-control" placeholder="e.g. Dr. Mrs. Arvind" required="">
+                                </div>
+                            </div>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" id="adm-email" class="form-control" placeholder="parent@gmail.com" required="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" id="adm-phone" class="form-control" placeholder="+91 0123456789" required="">
+                                </div>
+                            </div>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label">Class Applying For *</label>
+                                    <select id="adm-grade" class="form-control" required="">
+                                        <option value="Class 1">Class 1</option>
+                                        <option value="Class 2">Class 2</option>
+                                        <option value="Class 3">Class 3</option>
+                                        <option value="Class 4">Class 4</option>
+                                        <option value="Class 5">Class 5</option>
+                                        <option value="Class 6">Class 6</option>
+                                        <option value="Class 7">Class 7</option>
+                                        <option value="Class 8">Class 8</option>
+                                        <option value="Class 9">Class 9</option>
+                                        <option value="Class 10">Class 10</option>
+                                        <option value="Class 11">Class 11</option>
+                                        <option value="Class 12 - Science">Class 12 - Science</option>
+                                        <option value="Class 12 - Commerce">Class 12 - Commerce</option>
+                                        <option value="Class 12 - Humanities (Arts)">Class 12 - Humanities (Arts)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Preferred Section</label>
+                                    <select id="adm-section" class="form-control">
+                                        <option value="Section A">Section A</option>
+                                        <option value="Section B">Section B</option>
+                                        <option value="Section C">Section C</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Previous School Attended</label>
+                                <input type="text" id="adm-prev-school" class="form-control" placeholder="Previous Institution">
+                            </div>
+
+                            <div class="form-group full">
+                                <label class="form-label">Additional Questions or Special Interests</label>
+                                <textarea id="adm-notes" class="form-control" rows="3" placeholder="Tell us about the student's hobbies, sports, or academic goals..."></textarea>
+                            </div>
+
+                            <div class="form-group full" style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:14px 18px; margin-bottom:18px;">
+                                <label class="form-label" style="font-weight:700; color:#0f172a; margin-bottom:10px; display:block;">
+                                    <i class="fas fa-paper-plane" style="color:var(--primary); margin-right:6px;"></i>Receive Admission Updates &amp; Approval Notice On: *
+                                </label>
+                                <div style="display:flex; flex-direction:column; gap:10px;">
+                                    <label style="display:flex; align-items:center; gap:10px; cursor:pointer; font-size:0.9rem; color:#1e293b;">
+                                        <input type="radio" name="notification_pref" value="both" checked="" style="accent-color:var(--primary); width:18px; height:18px;">
+                                        <span><strong>Both Phone &amp; Email</strong> (SMS / WhatsApp + Official Email Clearance Letter) <span class="badge" style="background:#dcfce7; color:#15803d; font-size:0.72rem; padding:2px 6px; border-radius:4px; margin-left:4px; font-weight:700;">Recommended</span></span>
+                                    </label>
+                                    <label style="display:flex; align-items:center; gap:10px; cursor:pointer; font-size:0.9rem; color:#1e293b;">
+                                        <input type="radio" name="notification_pref" value="phone" style="accent-color:var(--primary); width:18px; height:18px;">
+                                        <span><strong>Phone Number Only</strong> (Instant SMS / WhatsApp Message)</span>
+                                    </label>
+                                    <label style="display:flex; align-items:center; gap:10px; cursor:pointer; font-size:0.9rem; color:#1e293b;">
+                                        <input type="radio" name="notification_pref" value="email" style="accent-color:var(--primary); width:18px; height:18px;">
+                                        <span><strong>Email Address Only</strong> (Official Digital Clearance Letter via Email)</span>
+                                    </label>
+                                </div>
+                                <div style="font-size:0.75rem; color:#64748b; margin-top:10px; line-height:1.4;">
+                                    <i class="fas fa-info-circle"></i> Once verified and approved by the <strong>Owner (Director)</strong>, <strong>Superadmin</strong>, or <strong>Principal</strong>, an official clearance notification will be dispatched directly to your selected contact method(s).
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width:100%; padding:12px;">
+                                Submit Admission Inquiry
+                            </button>
+                            <div id="admission-result-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notice Board & Circulars Section -->
+        <section id="notices" class="section section-alt">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Stay Informed</span>
+                    <h2 class="section-title">Official Announcements &amp; Events</h2>
+                    <p class="section-description">
+                        Keep abreast with the latest academic circulars, exam calendars, and student achievements.
+                    </p>
+                </div>
+
+                <div class="notices-grid" id="public-notices-grid">
+        <div class="notice-card">
+            <div class="notice-meta">
+                <span class="notice-tag">Sports</span>
+                <span class="notice-date">2026-10-28</span>
+            </div>
+            <h4 class="notice-title">Inter-House Athletic Sports Championship 2026</h4>
+            <p class="notice-snippet">Annual sports gala will take place at the school main athletics arena on November 20th. Parents and alumni are cordially invited.</p>
+        </div>
+    
+        <div class="notice-card">
+            <div class="notice-meta">
+                <span class="notice-tag">Academic</span>
+                <span class="notice-date">2026-11-01</span>
+            </div>
+            <h4 class="notice-title">First Term Mid-Term Break &amp; Assessment Notice</h4>
+            <p class="notice-snippet">The management wishes to inform all parents and students that mid-term continuous assessments will conclude on Friday, followed by the mid-term recess.</p>
+        </div>
+    
+        <div class="notice-card">
+            <div class="notice-meta">
+                <span class="notice-tag">General</span>
+                <span class="notice-date">2026-10-20</span>
+            </div>
+            <h4 class="notice-title">Parent-Teacher Consultative Association (PTA) General Meeting</h4>
+            <p class="notice-snippet">The termly interactive session between faculty and guardians is scheduled for next Saturday at 11:00 AM.</p>
+        </div>
+    
+        <div class="notice-card">
+            <div class="notice-meta">
+                <span class="notice-tag">Event</span>
+                <span class="notice-date">2026-10-25</span>
+            </div>
+            <h4 class="notice-title">STEM &amp; Robotics Exhibition Showcase</h4>
+            <p class="notice-snippet">Senior secondary students will demonstrate their AI and robotics inventions in the Grand Multipurpose Hall this Thursday from 10:00 AM.</p>
+        </div>
+    </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div>
+                        <span class="section-subtitle">Get in Touch</span>
+                        <h2 class="section-title" style="text-align:left; margin-bottom:16px;">
+                            We Would Love to Hear From You
+                        </h2>
+                        <p style="color:#64748b; margin-bottom:24px;">
+                            Whether you are planning a campus visit, inquiring about fees, or seeking 
+                            academic consultation, our administrative staff is on hand to assist.
+                        </p>
+
+                        <div style="display:flex; flex-direction:column; gap:16px;">
+                            <div style="display:flex; align-items:center; gap:12px;">
+                                <div style="font-size:1.5rem; color:#1e3a8a;">📍</div>
+                                <div>
+                                    <strong>Campus Location:</strong>
+                                    <div style="color:#475569;">Khadpathar, Renukoot, Sonbhadra, Uttar Pradesh - 231217</div>
+                                </div>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:12px;">
+                                <div style="font-size:1.5rem; color:#1e3a8a;">📞</div>
+                                <div>
+                                    <strong>Telephone Lines:</strong>
+                                    <div style="color:#475569;">+91 761 700 5055, +91 761 700 5056</div>
+                                </div>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:12px;">
+                                <div style="font-size:1.5rem; color:#1e3a8a;">✉️</div>
+                                <div>
+                                    <strong>Electronic Mail:</strong>
+                                    <div style="color:#475569;">info@greenlandschool.net</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background:white; padding:32px; border-radius:16px; box-shadow:var(--shadow-lg); border:1px solid #e2e8f0;">
+                        <h4 style="font-size:1.2rem; font-weight:700; margin-bottom:16px;">Send Us a Message</h4>
+                        <div class="form-group">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Your Email</label>
+                            <input type="email" class="form-control" placeholder="name@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Subject</label>
+                            <input type="text" class="form-control" placeholder="Inquiry about...">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="3" placeholder="How can we assist you?"></textarea>
+                        </div>
+                        <button class="btn btn-primary" style="width:100%;" onclick="alert('Message sent! An administrative officer will get back to you.')">
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+                        <div class="crest-icon" style="width:100px; height:100px; font-size:1.1rem;"><img src="assets/Logo_Greenland_School.png" class="img-fluid" alt="G1"></div>
+                        <h3 style="color:white; font-size:1.1rem; font-weight:800;">Greenland School</h3>
+                    </div>
+                    <p style="font-size:0.85rem; line-height:1.6; color:#94a3b8;">
+                        A forward-thinking educational institution empowering pupils with critical intellect, 
+                        technological fluency, and ethical leadership skills.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Our Heritage</a></li>
+                        <li><a href="#academics">Curriculum &amp; Subjects</a></li>
+                        <li><a href="#admissions">Online Admissions</a></li>
+                        <li><a href="#facilities">Campus Life &amp; Labs</a></li>
+                        <li><a href="#notices">Notice Board</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SMS Portals</h4>
+                    <ul class="footer-links">
+                        <li><a href="#login" onclick="openPortalLogin();">Super Admin Portal</a></li>
+                        <li><a href="#login" onclick="openPortalLogin();">Teacher Grading Portal</a></li>
+                        <li><a href="#login" onclick="openPortalLogin();">Student Results &amp; Marksheet</a></li>
+                        <li><a href="#login" onclick="openPortalLogin();">Parent Progress Portal</a></li>
+                        <li><a href="#login" onclick="openPortalLogin();">Fee Invoicing &amp; Payments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Campus Hours</h4>
+                    <p style="font-size:0.85rem; color:#94a3b8; margin-bottom:12px;">
+                        Monday - Friday: 08:00 AM - 04:30 PM<br>
+                        Saturday (PTA / Sports): 09:00 AM - 01:00 PM<br>
+                        Sunday: Closed
+                    </p>
+                    <div style="margin-top:16px;">
+                        <button class="btn btn-secondary btn-sm" onclick="openPortalLogin()">Access SMS Web Portal</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2026 Greenland School (GS) / GS_SMS. All Rights Reserved.</div>
+                <div>Accredited by Ministry of Education &amp; WAEC / NECO Board</div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- 2. DEDICATED SECURE PORTAL LOGIN VIEW                             -->
+    <!-- ================================================================= -->
+    <div id="portal-login-view" style="display: flex;">
+        <div class="login-wrapper">
+            <div class="login-form-side">
+                <div class="login-brand-header" style="text-align:center;">
+                    <div class="crest-icon" style="width:64px; height:64px; font-size:1.6rem; margin:0 auto 14px auto; box-shadow:0 8px 20px rgba(30, 58, 138, 0.35); overflow:hidden; display:flex; align-items:center; justify-content:center; background:#1e3a8a;">
+                        <img src="assets/Logo_Greenland_School.png" style="width:100%; height:100%; object-fit:contain;" alt="GS">
+                    </div>
+                    <h2 style="font-size:1.45rem; color:#0f172a; font-weight:800;">Greenland School</h2>
+                    <p style="font-size:0.85rem; color:#64748b; margin-top:4px;">School Management System (SMS) Portal</p>
+                    <div style="margin-top:10px;">
+                        <span style="display:inline-block; font-size:0.75rem; background:#eff6ff; color:#1e40af; border:1px solid #bfdbfe; padding:4px 12px; border-radius:50px; font-weight:700;">
+                            🔒 Authorized User Login
+                        </span>
+                    </div>
+                </div>
+
+                <div id="login-error-msg" class="login-alert error" style="display: none;"></div>
+                <div id="login-success-msg" class="login-alert success"></div>
+
+                <form id="portal-login-form" onsubmit="handlePortalLogin(event)">
+                    <div class="form-group">
+                        <label class="form-label">User ID or Registered Email *</label>
+                        <input type="text" id="login-username" class="form-control" placeholder="Enter your User ID or Email" required="" autocomplete="username">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Password *</label>
+                        <div class="password-input-wrap">
+                            <input type="password" id="login-password" class="form-control" placeholder="Enter your password" required="" autocomplete="current-password">
+                            <button type="button" class="btn-toggle-pwd" onclick="togglePasswordVisibility('login-password')">👁️</button>
+                        </div>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; font-size:0.85rem;">
+                        <label style="display:flex; align-items:center; gap:6px; cursor:pointer;">
+                            <input type="checkbox" id="login-remember" checked=""> Remember User ID
+                        </label>
+                        <a href="javascript:void(0)" onclick="openForgotPasswordModal()" style="color:#2563eb; text-decoration:none; font-weight:700;">
+                            🔑 Forgot Password?
+                        </a>
+                    </div>
+                    <button type="submit" id="btn-portal-login" class="btn btn-primary" style="width:100%; padding:12px; font-size:0.95rem; margin-bottom:12px; font-weight:700;">
+                        🔐 Sign In to Portal
+                    </button>
+                    <button type="button" class="btn btn-outline" style="width:100%; font-size:0.88rem;" onclick="openPublicSite()">
+                        🌐 Back to Public Website
+                    </button>
+
+                    <div style="margin-top:24px; padding-top:16px; border-top:1px solid #e2e8f0; text-align:center; font-size:0.78rem; color:#64748b;">
+                        <div>Need credentials or assistance? Contact the <strong>School Administration</strong></div>
+                        <div style="margin-top:4px;">✉️ <a href="mailto:info@greenlandschool.net" style="color:#1e40af; font-weight:600;">info@greenlandschool.net</a> | 📞 +91 761 700 5055, +91 761 700 5056</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- 3. INTEGRATED SCHOOL MANAGEMENT SYSTEM (SMS) PORTAL               -->
+    <!-- ================================================================= -->
+    <div id="portal-container" style="display: none;">
+
+        <!-- Authenticated Portal Session Header (Strict Single-Role Session) -->
+        <div class="role-switcher-banner no-print" style="background:#0f172a; padding:12px 28px; border-bottom:3px solid #1e3a8a; display:flex; justify-content:space-between; align-items:center;">
+            <div class="role-switcher-title" style="display:flex; align-items:center; gap:12px;">
+                <div class="crest-icon" style="width:34px; height:34px; font-size:0.9rem; overflow:hidden; display:flex; align-items:center; justify-content:center; background:#1e3a8a; border-radius:6px;">
+                    <img src="assets/Logo_Greenland_School.png" style="width:100%; height:100%; object-fit:contain;" alt="GS">
+                </div>
+                <div>
+                    <span style="font-size:0.95rem; font-weight:800; color:white; letter-spacing:0.5px;">GREENLAND SCHOOL</span>
+                    <span style="margin:0 8px; color:#475569;">|</span>
+                    <span id="banner-current-user-role" style="font-size:0.82rem; font-weight:800; color:#fde047; text-transform:uppercase; background:rgba(234, 179, 8, 0.15); border:1px solid rgba(234, 179, 8, 0.3); padding:2px 8px; border-radius:4px;">
+                        SUPER ADMIN PORTAL
+                    </span>
+                </div>
+            </div>
+            <div style="display:flex; align-items:center; gap:16px;">
+                <div style="font-size:0.85rem; color:#cbd5e1; text-align:right;">
+                    <div>Signed in as: <strong id="banner-current-user-name" style="color:white;">Super Admin</strong></div>
+                    <div style="font-size:0.75rem; color:#94a3b8;">User ID: <code id="banner-current-user-id" style="color:#93c5fd; font-weight:bold;">GS_superadmin</code></div>
+                </div>
+                <button class="btn btn-secondary btn-sm" onclick="handlePortalLogout()" style="font-size:0.8rem; padding:6px 14px; background:#dc2626; border-color:#b91c1c; font-weight:700;">
+                    🚪 Sign Out
+                </button>
+                <button class="btn btn-light btn-sm" onclick="openPublicSite()" style="font-size:0.8rem; padding:6px 14px;">
+                    🌐 Public Website
+                </button>
+            </div>
+        </div>
+
+        <!-- Portal App Layout -->
+        <div class="portal-layout">
+
+            <!-- Sidebar Navigation -->
+            <aside class="portal-sidebar no-print">
+                <div class="portal-user-profile">
+                    <img id="portal-user-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150" class="user-avatar" alt="Avatar">
+                    <div class="user-info">
+                        <h4 id="portal-user-name">Super Admin</h4>
+                        <span id="portal-user-badge" class="user-badge">Super Admin</span>
+                    </div>
+                </div>
+
+                <ul class="sidebar-nav">
+                    <li data-tab="dashboard">
+                        <a href="javascript:void(0)" class="active" data-tab="dashboard" onclick="showTab('dashboard')">
+                            <span>📊</span> Dashboard
+                        </a>
+                    </li>
+                    <li data-tab="users">
+                        <a href="javascript:void(0)" data-tab="users" onclick="showTab('users')" style="color:#fde047; font-weight:700;">
+                            <span>🔑</span> Manage Users &amp; Passwords
+                        </a>
+                    </li>
+                    <li data-tab="teachers">
+                        <a href="javascript:void(0)" data-tab="teachers" onclick="showTab('teachers')">
+                            <span>👨‍🏫</span> Faculty &amp; Teachers
+                        </a>
+                    </li>
+                    <li data-tab="students">
+                        <a href="javascript:void(0)" data-tab="students" onclick="showTab('students')">
+                            <span>🎓</span> Students Directory
+                        </a>
+                    </li>
+                    <li data-tab="classes">
+                        <a href="javascript:void(0)" data-tab="classes" onclick="showTab('classes')">
+                            <span>🏫</span> Classes &amp; Arms
+                        </a>
+                    </li>
+                    <li data-tab="marks">
+                        <a href="javascript:void(0)" data-tab="marks" onclick="showTab('marks')">
+                            <span>📝</span> Exam Marks &amp; Grading
+                        </a>
+                    </li>
+                    <li data-tab="marksheet">
+                        <a href="javascript:void(0)" data-tab="marksheet" onclick="showTab('marksheet')">
+                            <span>📜</span> Official Marksheet (PDF)
+                        </a>
+                    </li>
+                    <li data-tab="attendance">
+                        <a href="javascript:void(0)" data-tab="attendance" onclick="showTab('attendance')">
+                            <span>📋</span> Class Attendance
+                        </a>
+                    </li>
+                    <li data-tab="payments">
+                        <a href="javascript:void(0)" data-tab="payments" onclick="showTab('payments')">
+                            <span>💰</span> Fee Payments &amp; Receipts
+                        </a>
+                    </li>
+                    <li data-tab="timetable">
+                        <a href="javascript:void(0)" data-tab="timetable" onclick="showTab('timetable')">
+                            <span>📅</span> Class Timetable
+                        </a>
+                    </li>
+                    <li data-tab="library">
+                        <a href="javascript:void(0)" data-tab="library" onclick="showTab('library')">
+                            <span>📚</span> E-Library Books
+                        </a>
+                    </li>
+                    <li data-tab="leaves">
+                        <a href="javascript:void(0)" data-tab="leaves" onclick="showTab('leaves')">
+                            <span>🏖️</span> Leave Management
+                        </a>
+                    </li>
+                    <li data-tab="payroll">
+                        <a href="javascript:void(0)" data-tab="payroll" onclick="showTab('payroll')">
+                            <span>💵</span> Faculty Payroll &amp; Slips
+                        </a>
+                    </li>
+                    <li data-tab="inquiries">
+                        <a href="javascript:void(0)" data-tab="inquiries" onclick="showTab('inquiries')">
+                            <span>📩</span> Online Admission Inquiries
+                        </a>
+                    </li>
+                    <li data-tab="notices">
+                        <a href="javascript:void(0)" data-tab="notices" onclick="showTab('notices')">
+                            <span>📢</span> Circulars &amp; Notices
+                        </a>
+                    </li>
+                    <li data-tab="settings">
+                        <a href="javascript:void(0)" data-tab="settings" onclick="showTab('settings')">
+                            <span>⚙️</span> System Settings
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="sidebar-footer">
+                    <button class="btn btn-outline btn-sm" style="width:100%; color:#cbd5e1; border-color:#475569;" onclick="openPublicSite()">
+                        ← Exit to Website
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Main Portal Content -->
+            <main class="portal-main">
+                <div class="portal-header no-print">
+                    <div class="portal-header-title">
+                        <h2 id="portal-header-title">Dashboard</h2>
+                        <p id="portal-header-desc">Welcome to Greenland School Management Portal</p>
+                    </div>
+                    <div style="display:flex; gap:10px;">
+                        <button class="btn btn-outline btn-sm" onclick="showTab(currentTab)">🔄 Refresh</button>
+                        <button class="btn btn-primary btn-sm" onclick="window.print()">🖨️ Print View</button>
+                    </div>
+                </div>
+
+                <!-- Tab Content Area -->
+                <div id="portal-tab-content">
+                    <!-- Populated dynamically via app.js -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- MODALS FOR QUICK ACTIONS                                          -->
+    <!-- ================================================================= -->
+
+    <!-- Admit Student Modal -->
+    <div id="modal-admit-student" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 class="modal-title">➕ Admit &amp; Register New Student</h3>
+                <button class="modal-close" onclick="closeModal('modal-admit-student')">×</button>
+            </div>
+            <form onsubmit="submitAdmitStudent(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Student Full Name *</label>
+                        <input type="text" id="new-std-name" class="form-control" required="" placeholder="e.g. Ibrahim Musa">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Class *</label>
+                            <select id="new-std-class" class="form-control" required="" onchange="handleClassChange(this.value)">
+                                <option value="" disabled="" selected="">-- Select Class --</option>
+                                <option value="Class 1">Class 1</option>
+                                <option value="Class 2">Class 2</option>
+                                <option value="Class 3">Class 3</option>
+                                <option value="Class 4">Class 4</option>
+                                <option value="Class 5">Class 5</option>
+                                <option value="Class 6">Class 6</option>
+                                <option value="Class 7">Class 7</option>
+                                <option value="Class 8">Class 8</option>
+                                <option value="Class 9">Class 9</option>
+                                <option value="Class 10">Class 10</option>
+                                <option value="Class 11">Class 11</option>
+                                <option value="Class 12">Class 12</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Class Section *</label>
+                            <select id="new-std-section" class="form-control" required="">
+                                <option value="Section A">Section A</option>
+                                <option value="Section B">Section B</option>
+                                <option value="Section C">Section C</option>
+                                <option value="Section D">Section D</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Stream Selector for Class 12 -->
+                    <div id="class12-stream-container" class="form-group" style="display:none; background:#eff6ff; border:1px solid #bfdbfe; padding:12px 14px; border-radius:8px; margin-bottom:16px;">
+                        <label class="form-label" style="color:#1e40af; font-weight:700;">Class 12 Stream / Specialization *</label>
+                        <select id="new-std-stream" class="form-control">
+                            <option value="Science">Science (Physics, Chemistry, Mathematics / Biology)</option>
+                            <option value="Commerce">Commerce (Accountancy, Business Studies, Economics)</option>
+                            <option value="Humanities (Arts)">Humanities (Arts) (History, Political Science, Psychology, Sociology)</option>
+                        </select>
+                        <small style="color:#1d4ed8; font-size:0.75rem; margin-top:4px; display:block;">Selected specialization will be recorded in student profile and terminal assessment.</small>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Gender</label>
+                            <select id="new-std-gender" class="form-control">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Blood Group</label>
+                            <select id="new-std-blood" class="form-control">
+                                <option value="O+">O+</option>
+                                <option value="A+">A+</option>
+                                <option value="B+">B+</option>
+                                <option value="AB+">AB+</option>
+                                <option value="O-">O-</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Mandatory 12-Digit Aadhaar Field (School Admission Requirement) -->
+                    <div class="form-group" style="background:#fff1f2; border:1.5px solid #fecdd3; padding:14px; border-radius:10px; margin-bottom:16px;">
+                        <label class="form-label" style="color:#9f1239; font-weight:700; display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                            <span><i class="fas fa-id-card"></i> Student 12-Digit Aadhaar Number *</span>
+                            <span style="font-size:0.75rem; background:#e11d48; color:#fff; padding:2px 10px; border-radius:12px; font-weight:700; letter-spacing:0.5px;">MANDATORY FOR ADMISSION</span>
+                        </label>
+                        <input type="text" id="new-std-aadhaar" class="form-control" required="" maxlength="12" pattern="[0-9]{12}" inputmode="numeric" placeholder="Enter exact 12-digit Aadhaar number (e.g. 548962147801)" style="font-family:monospace; letter-spacing:2px; font-size:1.05rem; font-weight:700; color:#0f172a; border-color:#fb7185; background:#fff;" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 12); checkAadhaarLength(this);">
+                        <div id="aadhaar-hint-text" style="display:flex; justify-content:space-between; align-items:center; margin-top:6px; font-size:0.78rem; color:#be123c; font-weight:600;">
+                            <span>Strict rule: Admission cannot be processed without a valid 12-digit Aadhaar.</span>
+                            <span id="aadhaar-counter" style="font-family:monospace;">0 / 12 digits</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Guardian Phone</label>
+                        <input type="tel" id="new-std-phone" class="form-control" placeholder="+91 8004125223">
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; align-items:center; gap:12px; padding:16px 24px; border-top:1px solid #e2e8f0; background:#f8fafc; border-bottom-left-radius:var(--radius-lg, 12px); border-bottom-right-radius:var(--radius-lg, 12px);">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-admit-student')" style="min-width:110px; padding:10px 20px; font-weight:600; cursor:pointer;">Cancel</button>
+                    <button type="submit" class="btn btn-primary" style="min-width:180px; padding:10px 22px; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; justify-content:center; gap:8px;">
+                        <i class="fas fa-check-circle"></i> Complete Admission
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bulk Upload Student Excel Admission Modal -->
+    <div id="modal-upload-excel-student" class="modal-overlay">
+        <div class="modal-box" style="max-width: 760px; width:95%;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title">📊 Bulk Student Admission via Excel Sheet</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;">Upload an Excel (.xlsx / .xls) or CSV sheet to admit students and generate accounts</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-upload-excel-student')">×</button>
+            </div>
+            <div class="modal-body">
+                <!-- Smart Generation Rules Callout -->
+                <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:12px 16px; margin-bottom:16px; font-size:0.83rem; color:#1e40af;">
+                    <div style="font-weight:700; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+                        <span>✨ Automatic Smart Email &amp; Admission Features:</span>
+                    </div>
+                    <ul style="margin:0; padding-left:18px; line-height:1.5;">
+                        <li><strong>Unique Email Format:</strong> <code style="background:#dbeafe; padding:1px 5px; border-radius:3px; font-weight:700;">GS_student_"first"_"last"_"class"@greenlandschool.net</code></li>
+                        <li><strong>Duplicate Name Protection:</strong> If multiple students have the exact same First Name, Last Name, and Class, unique suffix numbers (<code style="background:#dbeafe; padding:1px 4px; border-radius:3px;">_1</code>, <code style="background:#dbeafe; padding:1px 4px; border-radius:3px;">_2</code>) are appended automatically!</li>
+                        <li><strong>Password:</strong> All admitted students receive password <code style="background:#dbeafe; padding:1px 5px; border-radius:3px; font-weight:700;">Greenland@2026</code>.</li>
+                        <li><strong>Official Records:</strong> Enrolled in classes, assigned admission numbers (<code style="background:#dbeafe; padding:1px 4px; border-radius:3px;">GS/2026/XXXX</code>), and logged in the Admissions register.</li>
+                    </ul>
+                </div>
+
+                <!-- Template Download Card -->
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; background:#f8fafc; border:1px dashed #cbd5e1; border-radius:8px; padding:12px 16px;">
+                    <div>
+                        <strong style="font-size:0.88rem; color:#0f172a;">Download Greenland School Excel Template</strong>
+                        <div style="font-size:0.76rem; color:#64748b;">Includes standard column headers: First Name, Last Name, Class, Gender, Parent Name, etc.</div>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-sm" onclick="downloadStudentExcelTemplate()" style="font-size:0.8rem; padding:6px 14px;">
+                        📥 Download Template (.xlsx)
+                    </button>
+                </div>
+
+                <!-- File Drop / Select Area -->
+                <div class="form-group">
+                    <label class="form-label">Upload Student Spreadsheet (.xlsx, .xls, .csv) *</label>
+                    <div id="excel-drop-zone" style="border:2px dashed #3b82f6; border-radius:10px; background:#f0fdf4; padding:24px 16px; text-align:center; cursor:pointer; transition:all 0.2s;" onclick="document.getElementById('excel-file-input').click()">
+                        <div style="font-size:2.2rem; margin-bottom:4px;">📊</div>
+                        <div style="font-weight:700; color:#1e3a8a; font-size:0.95rem;" id="excel-file-name-label">Click here to browse or drag &amp; drop student Excel sheet</div>
+                        <div style="font-size:0.78rem; color:#64748b; margin-top:4px;">Supports Microsoft Excel (.xlsx, .xls) and CSV spreadsheets</div>
+                        <input type="file" id="excel-file-input" accept=".xlsx, .xls, .csv" style="display:none;" onchange="handleExcelFileSelect(event)">
+                    </div>
+                </div>
+
+                <!-- Live Preview Table Area -->
+                <div id="excel-preview-wrap" style="display:none; margin-top:16px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:700; font-size:0.85rem; color:#0f172a;" id="excel-preview-count">Detected Students (0)</span>
+                        <span style="font-size:0.75rem; color:#16a34a; font-weight:600;">✓ Ready to admit</span>
+                    </div>
+                    <div style="max-height:160px; overflow-y:auto; border:1px solid #e2e8f0; border-radius:6px;">
+                        <table class="data-table" style="font-size:0.78rem; margin:0;" id="excel-preview-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Student Name</th>
+                                    <th>Class</th>
+                                    <th>Gender</th>
+                                    <th>Parent / Phone</th>
+                                    <th>Predicted Email Format</th>
+                                </tr>
+                            </thead>
+                            <tbody id="excel-preview-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Result Report Box -->
+                <div id="excel-result-box" style="display:none; margin-top:16px;"></div>
+            </div>
+
+            <div class="modal-footer" style="display:flex; justify-content:space-between; align-items:center;">
+                <button type="button" class="btn btn-outline" onclick="closeModal('modal-upload-excel-student')">Close</button>
+                <button type="button" id="btn-submit-excel-upload" class="btn btn-primary" onclick="submitBulkExcelUpload()" disabled="">
+                    🚀 Import &amp; Admit Students
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Record Payment Modal -->
+    <div id="modal-record-payment" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 class="modal-title">💳 Record Fee Payment</h3>
+                <button class="modal-close" onclick="closeModal('modal-record-payment')">×</button>
+            </div>
+            <form onsubmit="submitRecordPayment(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Student *</label>
+                        <select id="pay-student-id" class="form-control" required="">
+                            <option value="" disabled="" selected="">-- Select Enrolled Student --</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Fee Description</label>
+                        <input type="text" id="pay-title" class="form-control" value="Term Tuition &amp; Maintenance Fee" required="">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Total Amount Billed (₹)</label>
+                            <input type="number" id="pay-amount" class="form-control" value="25000" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Amount Paid (₹)</label>
+                            <input type="number" id="pay-paid" class="form-control" value="25000" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-record-payment')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Generate Receipt &amp; Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Enter Marks Modal -->
+    <div id="modal-enter-marks" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 class="modal-title">📝 Record Subject Marks</h3>
+                <button class="modal-close" onclick="closeModal('modal-enter-marks')">×</button>
+            </div>
+            <form onsubmit="submitEnterMarks(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Student *</label>
+                        <select id="mark-student-id" class="form-control" required="">
+                            <option value="" disabled="" selected="">-- Select Enrolled Student --</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Subject</label>
+                        <select id="mark-subject-id" class="form-control">
+                            <option value="1">Mathematics</option>
+                            <option value="2">English Language</option>
+                            <option value="3">Physics</option>
+                            <option value="4">Chemistry</option>
+                            <option value="5">Biology</option>
+                            <option value="6">Computer Science &amp; ICT</option>
+                            <option value="7">Economics</option>
+                            <option value="8">Civic Education</option>
+                        </select>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Continuous Assessment / Test (Max 40)</label>
+                            <input type="number" id="mark-ca" class="form-control" min="0" max="40" step="0.5" value="30" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Terminal Exam (Max 60)</label>
+                            <input type="number" id="mark-exam" class="form-control" min="0" max="60" step="0.5" value="55" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-enter-marks')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Score</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Post Notice Modal -->
+    <div id="modal-post-notice" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 class="modal-title">📢 Broadcast Announcement</h3>
+                <button class="modal-close" onclick="closeModal('modal-post-notice')">×</button>
+            </div>
+            <form onsubmit="submitPostNotice(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Announcement Title *</label>
+                        <input type="text" id="notice-title" class="form-control" required="" placeholder="e.g. End of Term Examination Schedule">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Category</label>
+                        <select id="notice-category" class="form-control">
+                            <option value="Academic">Academic</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Event">Event</option>
+                            <option value="General">General</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Notice Details *</label>
+                        <textarea id="notice-content" class="form-control" rows="4" required="" placeholder="Detailed circular for parents, teachers, and pupils..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-post-notice')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Publish Circular</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Book Modal -->
+    <div id="modal-add-book" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 class="modal-title">📚 Catalogue New Library Resource</h3>
+                <button class="modal-close" onclick="closeModal('modal-add-book')">×</button>
+            </div>
+            <form onsubmit="submitAddBook(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Book Title *</label>
+                        <input type="text" id="book-title" class="form-control" required="" placeholder="e.g. Fundamental Principles of Physics">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Author *</label>
+                            <input type="text" id="book-author" class="form-control" required="" placeholder="Author Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">ISBN</label>
+                            <input type="text" id="book-isbn" class="form-control" placeholder="978-0123456789">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Category</label>
+                            <select id="book-category" class="form-control">
+                                <option value="Sciences">Sciences</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Literature">Literature</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Humanities">Humanities</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Total Copies</label>
+                            <input type="number" id="book-copies" class="form-control" value="15" min="1">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-add-book')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Catalogue Resource</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Edit User Credentials Modal (Super Admin Master Control) -->
+    <div id="modal-edit-credentials" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title">🔑 Change User ID &amp; Password</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;">Super Admin Master Credential Override</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-edit-credentials')">×</button>
+            </div>
+            <form onsubmit="submitUpdateCredentials(event)">
+                <input type="hidden" id="edit-user-id">
+                <div class="modal-body">
+                    <div style="background:#f1f5f9; padding:12px; border-radius:8px; margin-bottom:16px; border-left:4px solid #1e3a8a;">
+                        <span style="font-size:0.75rem; text-transform:uppercase; color:#64748b; font-weight:700;">Target User Account</span>
+                        <div id="edit-user-display-name" style="font-size:1.05rem; font-weight:800; color:#0f172a;">User Account</div>
+                        <div id="edit-user-display-role" style="font-size:0.8rem; color:#1e40af; font-weight:600;">Super Admin</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">User ID / Username *</label>
+                        <input type="text" id="edit-user-username" class="form-control" required="" style="font-family:monospace; font-weight:700;">
+                        <small style="color:#64748b; font-size:0.75rem;">This is the unique identifier the user will enter on the login screen.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                            <label class="form-label" style="margin-bottom:0;">New Password *</label>
+                            <button type="button" class="btn btn-outline btn-sm" style="padding:2px 8px; font-size:0.72rem;" onclick="generateStrongPassword('edit-user-password')">
+                                🎲 Generate Password
+                            </button>
+                        </div>
+                        <div class="password-input-wrap">
+                            <input type="text" id="edit-user-password" class="form-control" required="" style="font-family:monospace; font-weight:700;">
+                        </div>
+                        <small style="color:#64748b; font-size:0.75rem;">Password will be updated immediately in the database.</small>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" id="edit-user-name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Role</label>
+                            <select id="edit-user-role" class="form-control">
+                                <option value="super_admin">Super Admin</option>
+                                <option value="admin">Administrator</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="student">Student</option>
+                                <option value="parent">Parent</option>
+                                <option value="accountant">Accountant</option>
+                                <option value="librarian">Librarian</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" id="edit-user-email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <input type="text" id="edit-user-phone" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-edit-credentials')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">💾 Save Credentials</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Create New User Modal -->
+    <div id="modal-create-user" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 class="modal-title">➕ Create New User Account</h3>
+                <button class="modal-close" onclick="closeModal('modal-create-user')">×</button>
+            </div>
+            <form onsubmit="submitCreateUser(event)">
+                <div class="modal-body">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Full Name *</label>
+                            <input type="text" id="create-user-name" class="form-control" required="" placeholder="e.g. Samuel Ade">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Account Role *</label>
+                            <select id="create-user-role" class="form-control" required="">
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                                <option value="admin">Administrator</option>
+                                <option value="parent">Parent</option>
+                                <option value="accountant">Accountant</option>
+                                <option value="librarian">Librarian</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Unique User ID / Username *</label>
+                            <input type="text" id="create-user-username" class="form-control" required="" placeholder="e.g. std_samuel" style="font-family:monospace;">
+                        </div>
+                        <div class="form-group">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                                <label class="form-label" style="margin-bottom:0;">Password *</label>
+                                <button type="button" class="btn btn-outline btn-sm" style="padding:2px 8px; font-size:0.72rem;" onclick="generateStrongPassword('create-user-password')">
+                                    🎲 Auto
+                                </button>
+                            </div>
+                            <input type="text" id="create-user-password" class="form-control" required="" placeholder="e.g. Student#2026" style="font-family:monospace;">
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" id="create-user-email" class="form-control" placeholder="user@greenlandschool.net">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <input type="text" id="create-user-phone" class="form-control" placeholder="+91 761 700 5055">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-create-user')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- FORGOT PASSWORD & ACCOUNT RECOVERY MODAL                          -->
+    <!-- ================================================================= -->
+    <div id="modal-forgot-password" class="modal-overlay">
+        <div class="modal-box" style="max-width:440px;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title">🔑 Account Password Recovery</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;">Greenland School Portal Password Reset</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-forgot-password')">×</button>
+            </div>
+            <div class="modal-body">
+                <div id="forgot-alert-msg" class="login-alert" style="display:none; margin-bottom:14px;"></div>
+
+                <!-- Step 1: Verification -->
+                <div id="forgot-step-1">
+                    <p style="font-size:0.88rem; color:#475569; margin-bottom:16px;">
+                        Enter your registered <strong>User ID</strong> (Username) or <strong>Email address</strong> to verify your account identity.
+                    </p>
+                    <div class="form-group">
+                        <label class="form-label">User ID or Registered Email *</label>
+                        <input type="text" id="forgot-username-input" class="form-control" placeholder="e.g. GS_superadmin, GS_teacher, or admin@greenlandschool.net" required="" autocomplete="username">
+                    </div>
+                    <button type="button" id="btn-verify-forgot" class="btn btn-primary" style="width:100%; padding:11px; font-weight:700;" onclick="handleVerifyForgotUser()">
+                        🔍 Verify Account Identity
+                    </button>
+                </div>
+
+                <!-- Step 2: Enter New Password -->
+                <div id="forgot-step-2" style="display:none;">
+                    <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:12px; margin-bottom:16px;">
+                        <div style="font-size:0.8rem; color:#15803d; font-weight:700;">✓ Account Identity Confirmed</div>
+                        <div id="forgot-user-name-display" style="font-size:1rem; font-weight:800; color:#14532d; margin-top:2px;"></div>
+                        <div id="forgot-user-meta-display" style="font-size:0.78rem; color:#166534; margin-top:2px;"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                            <label class="form-label" style="margin-bottom:0;">New Password *</label>
+                            <button type="button" class="btn btn-outline btn-sm" style="padding:2px 8px; font-size:0.72rem;" onclick="generateStrongPassword('forgot-new-pass')">
+                                🎲 Auto
+                            </button>
+                        </div>
+                        <div class="password-input-wrap">
+                            <input type="password" id="forgot-new-pass" class="form-control" placeholder="Enter new password" required="" autocomplete="new-password">
+                            <button type="button" class="btn-toggle-pwd" onclick="togglePasswordVisibility('forgot-new-pass')">👁️</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Confirm New Password *</label>
+                        <div class="password-input-wrap">
+                            <input type="password" id="forgot-confirm-pass" class="form-control" placeholder="Re-enter new password" required="" autocomplete="new-password">
+                            <button type="button" class="btn-toggle-pwd" onclick="togglePasswordVisibility('forgot-confirm-pass')">👁️</button>
+                        </div>
+                    </div>
+                    <button type="button" id="btn-reset-forgot" class="btn btn-primary" style="width:100%; padding:11px; font-weight:700;" onclick="handleResetForgotPass()">
+                        💾 Save New Password &amp; Proceed
+                    </button>
+                </div>
+
+                <div style="margin-top:22px; padding-top:14px; border-top:1px solid #e2e8f0; font-size:0.78rem; color:#64748b;">
+                    <div style="font-weight:700; color:#334155; margin-bottom:4px;">Administrative Assistance</div>
+                    <div>Super Admin can also reset your credentials anytime from the Master Admin Panel.</div>
+                    <div style="margin-top:4px;">ICT Helpdesk: <a href="mailto:info@greenlandschool.net" style="color:#1e40af; font-weight:600;">info@greenlandschool.net</a></div>
+                    <div>📞 Phone: <strong>+91 761 700 5055, +91 761 700 5056</strong></div>
+                </div>
+            </div>
+            <div class="modal-footer" style="display:flex; justify-content:space-between; align-items:center;">
+                <button type="button" class="btn btn-outline btn-sm" onclick="closeModal('modal-forgot-password')">Close</button>
+                <span style="font-size:0.75rem; color:#94a3b8;">Greenland School Portal Gate</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- TEACHER MANAGEMENT MODALS                                         -->
+    <!-- ================================================================= -->
+    <!-- Add Teacher Modal -->
+    <div id="modal-add-teacher" class="modal-overlay">
+        <div class="modal-box" style="max-width: 580px; width:100%;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title">👨‍🏫 Register New Teacher</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;">Add faculty member profile, assign subjects and class teacher role</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-add-teacher')">×</button>
+            </div>
+            <form onsubmit="submitAddTeacher(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Teacher Full Name *</label>
+                        <input type="text" id="add-teacher-name" class="form-control" required="" placeholder="e.g. Anand K. Mishra" oninput="autoFillTeacherUsername(this.value)">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Subject / Specialization *</label>
+                            <input type="text" id="add-teacher-subject" class="form-control" required="" placeholder="e.g. Mathematics &amp; Physics">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Qualification *</label>
+                            <input type="text" id="add-teacher-qualification" class="form-control" required="" placeholder="e.g. M.Sc. Mathematics, B.Ed.">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Gender (Leave Policy Quota) *</label>
+                            <select id="add-teacher-gender" class="form-control" required="">
+                                <option value="Male">Male (15 days Paternity)</option>
+                                <option value="Female">Female (180 days Maternity &amp; CCL)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number *</label>
+                            <input type="text" id="add-teacher-phone" class="form-control" required="" value="+91 761 700 5055">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Official Email</label>
+                        <input type="email" id="add-teacher-email" class="form-control" placeholder="Auto-generated if left blank">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Login User ID *</label>
+                            <input type="text" id="add-teacher-username" class="form-control" required="" placeholder="GS_teacher_...">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Password *</label>
+                            <input type="text" id="add-teacher-password" class="form-control" required="" value="Greenland@2026">
+                        </div>
+                    </div>
+                    <div class="form-group" style="background:#f8fafc; border:1px solid #e2e8f0; padding:12px; border-radius:8px;">
+                        <label class="form-label" style="font-weight:700; color:#1e3a8a;">Assign as Class Teacher (Optional)</label>
+                        <select id="add-teacher-section-assign" class="form-control">
+                            <option value="">-- No Class Teacher Assignment (General Faculty) --</option>
+                        </select>
+                        <small style="color:#64748b; font-size:0.75rem; display:block; margin-top:4px;">You can also assign or change class teacher role anytime.</small>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; align-items:center; gap:12px;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-add-teacher')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">➕ Register Teacher</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Assign Class Teacher Modal -->
+    <div id="modal-assign-class-teacher" class="modal-overlay">
+        <div class="modal-box" style="max-width: 520px; width:100%;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title">🏫 Assign Class Teacher</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;">Designate a teacher as the head of a specific class and arm</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-assign-class-teacher')">×</button>
+            </div>
+            <form onsubmit="submitAssignClassTeacher(event)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Select Faculty Member *</label>
+                        <select id="assign-teacher-select" class="form-control" required="" onchange="handleAssignTeacherSelect(this.value)">
+                            <option value="" disabled="" selected="">-- Select Faculty Member --</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Target Class &amp; Section (Arm) *</label>
+                        <select id="assign-section-select" class="form-control" required="">
+                            <option value="" disabled="" selected="">-- Select Class and Section --</option>
+                            <option value="0">❌ Unassign / Remove Current Class Teacher Role</option>
+                        </select>
+                    </div>
+                    <div id="assign-current-status-box" style="font-size:0.8rem; background:#eff6ff; border:1px solid #bfdbfe; color:#1e40af; padding:10px; border-radius:6px; display:none;"></div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; align-items:center; gap:12px;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-assign-class-teacher')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">💾 Save Class Assignment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Edit Teacher Profile Modal -->
+    <div id="modal-edit-teacher" class="modal-overlay">
+        <div class="modal-box" style="max-width: 540px; width:100%;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title">✏️ Edit Teacher Profile</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;">Update teacher contact, qualifications, subject, and credentials</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-edit-teacher')">×</button>
+            </div>
+            <form onsubmit="submitEditTeacher(event)">
+                <input type="hidden" id="edit-teacher-id">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="form-label">Teacher Full Name *</label>
+                        <input type="text" id="edit-teacher-name" class="form-control" required="">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Subject</label>
+                            <input type="text" id="edit-teacher-subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Qualification</label>
+                            <input type="text" id="edit-teacher-qualification" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <input type="text" id="edit-teacher-phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" id="edit-teacher-email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">User ID (Username)</label>
+                            <input type="text" id="edit-teacher-username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <input type="text" id="edit-teacher-password" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; align-items:center; gap:12px;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-edit-teacher')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- LEAVE MANAGEMENT MODALS                                           -->
+    <!-- ================================================================= -->
+    <!-- Apply for Leave Modal -->
+    <div id="modal-apply-leave" class="modal-overlay">
+        <div class="modal-box" style="max-width: 520px; width:100%;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title" id="leave-modal-title">🏖️ Submit Leave Application</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;" id="leave-modal-sub">Greenland School Leave Management System</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-apply-leave')">×</button>
+            </div>
+            <form onsubmit="submitApplyLeave(event)">
+                <div class="modal-body">
+                    <div id="leave-authority-notice" style="background:#eff6ff; border:1px solid #bfdbfe; color:#1e40af; padding:10px 14px; border-radius:8px; font-size:0.8rem; margin-bottom:14px;">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Leave Category / Type *</label>
+                        <select id="leave-type-select" class="form-control" required="" onchange="onLeaveCategoryChanged()">
+                            <option value="Casual Leave">Casual Leave (CL) - 8 days/year</option>
+                            <option value="Earned Leave">Earned Leave (EL) - 30 days/year (15 bi-annual)</option>
+                            <option value="Half Pay Leave">Half Pay Leave (HPL) - 20 days/year (10 bi-annual)</option>
+                            <option value="Maternity Leave">Maternity Leave - 180 days (Female Employees Only)</option>
+                            <option value="Paternity Leave">Paternity Leave - 15 days (Male Employees Only)</option>
+                            <option value="Child Care Leave">Child Care Leave (CCL) - 730 days career total</option>
+                        </select>
+                    </div>
+                    <div id="leave-type-policy-callout" style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px 14px; font-size:0.8rem; color:#166534; margin-bottom:14px; line-height:1.45;">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Start Date *</label>
+                            <input type="date" id="leave-start-date" class="form-control" required="" onchange="calculateLeaveDays()">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">End Date *</label>
+                            <input type="date" id="leave-end-date" class="form-control" required="" onchange="calculateLeaveDays()">
+                        </div>
+                    </div>
+                    <div style="font-size:0.82rem; color:#15803d; font-weight:700; margin-bottom:12px;" id="leave-days-display">
+                        Duration: 1 Day
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Reason / Purpose of Leave *</label>
+                        <textarea id="leave-reason" class="form-control" rows="3" required="" placeholder="Detailed reason for absence and academic handover arrangements..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; align-items:center; gap:12px;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-apply-leave')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">📤 Submit Leave Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Review / Approve / Reject Leave Modal -->
+    <div id="modal-action-leave" class="modal-overlay">
+        <div class="modal-box" style="max-width: 480px; width:100%;">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title" id="action-leave-title">Leave Request Decision</h3>
+                    <p style="font-size:0.78rem; color:#64748b; margin-top:2px;" id="action-leave-subtitle">Greenland School Administrative Review</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-action-leave')">×</button>
+            </div>
+            <form onsubmit="submitLeaveDecision(event)">
+                <input type="hidden" id="action-leave-id">
+                <input type="hidden" id="action-leave-type">
+                <div class="modal-body">
+                    <div id="action-leave-summary" style="background:#f8fafc; border:1px solid #e2e8f0; padding:12px; border-radius:8px; font-size:0.85rem; margin-bottom:14px;"></div>
+                    <div class="form-group">
+                        <label class="form-label">Reviewer Remarks / Notes</label>
+                        <textarea id="action-leave-notes" class="form-control" rows="2" placeholder="Optional comments, instructions, or handover approval..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; align-items:center; gap:12px;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-action-leave')">Cancel</button>
+                    <button type="submit" id="btn-submit-leave-decision" class="btn btn-primary">Confirm Decision</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Parent Pay Fee Online (UPI QR Code & Net Banking) -->
+    <div id="modal-pay-fee-online" class="modal-overlay">
+        <div class="modal-box" style="max-width:560px; width:100%;">
+            <div class="modal-header" style="background:#1e3a8a; color:#fff;">
+                <div>
+                    <h3 class="modal-title" style="color:#fff;"><i class="fas fa-credit-card"></i> Pay School Fee Online</h3>
+                    <p style="font-size:0.78rem; color:#bfdbfe; margin-top:2px;">Greenland School Online Fee Gateway (Instant Receipt)</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-pay-fee-online')" style="color:#fff;">×</button>
+            </div>
+            <form onsubmit="submitOnlineFeePayment(event)">
+                <input type="hidden" id="online-pay-student-id">
+                <div class="modal-body" style="padding:20px;">
+                    <!-- Student & Due Summary Card -->
+                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:14px; margin-bottom:16px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                            <span style="font-size:0.83rem; color:#64748b;">Student Ward:</span>
+                            <strong id="online-pay-student-name" style="color:#0f172a; font-size:0.95rem;">-</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                            <span style="font-size:0.83rem; color:#64748b;">Class / Admission No:</span>
+                            <span id="online-pay-student-class" style="font-weight:700; color:#1e3a8a; font-size:0.85rem;">-</span>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px dashed #cbd5e1; padding-top:8px; margin-top:8px;">
+                            <span style="font-size:0.95rem; font-weight:700; color:#b91c1c;">Outstanding Fee Due:</span>
+                            <span id="online-pay-due-amount" style="font-size:1.35rem; font-weight:800; color:#b91c1c;">₹0</span>
+                        </div>
+                    </div>
+
+                    <!-- Payment Amount Input -->
+                    <div class="form-group">
+                        <label class="form-label" style="font-weight:700; color:#0f172a;">Payment Amount (₹) *</label>
+                        <input type="number" id="online-pay-amount" class="form-control" required="" min="1" step="1" style="font-size:1.15rem; font-weight:700; color:#1e3a8a; letter-spacing:0.5px;">
+                        <small style="color:#64748b; font-size:0.76rem;">You can pay the full outstanding balance or a partial installment.</small>
+                    </div>
+
+                    <!-- Payment Method Switcher -->
+                    <div class="form-group" style="margin-top:14px;">
+                        <label class="form-label" style="font-weight:700; color:#0f172a;">Select Payment Channel *</label>
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                            <button type="button" id="pay-tab-qr" class="btn" onclick="selectOnlinePayTab('qr')" style="border:2px solid #16a34a; background:#f0fdf4; color:#16a34a; font-weight:700; padding:12px; border-radius:8px; cursor:pointer;">
+                                📱 UPI / Dynamic QR Code
+                            </button>
+                            <button type="button" id="pay-tab-nb" class="btn" onclick="selectOnlinePayTab('nb')" style="border:2px solid #cbd5e1; background:#f8fafc; color:#64748b; font-weight:700; padding:12px; border-radius:8px; cursor:pointer;">
+                                🏛️ Net Banking / NEFT
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- QR Code / UPI Panel -->
+                    <div id="panel-pay-qr" style="display:block; background:#f8fafc; border:1px solid #cbd5e1; border-radius:10px; padding:16px; text-align:center; margin-top:12px;">
+                        <div style="font-size:0.83rem; font-weight:700; color:#1e3a8a; margin-bottom:8px;">
+                            SCAN WITH ANY UPI APP (Google Pay, PhonePe, Paytm, BHIM)
+                        </div>
+                        <div style="display:inline-block; padding:10px; background:#fff; border:2px solid #16a34a; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.06); margin-bottom:10px;">
+                            <svg width="140" height="140" viewBox="0 0 140 140">
+                                <rect width="140" height="140" fill="#ffffff"></rect>
+                                <rect x="8" y="8" width="36" height="36" fill="#000000"></rect>
+                                <rect x="14" y="14" width="24" height="24" fill="#ffffff"></rect>
+                                <rect x="20" y="20" width="12" height="12" fill="#000000"></rect>
+                                <rect x="96" y="8" width="36" height="36" fill="#000000"></rect>
+                                <rect x="102" y="14" width="24" height="24" fill="#ffffff"></rect>
+                                <rect x="108" y="20" width="12" height="12" fill="#000000"></rect>
+                                <rect x="8" y="96" width="36" height="36" fill="#000000"></rect>
+                                <rect x="14" y="102" width="24" height="24" fill="#ffffff"></rect>
+                                <rect x="20" y="108" width="12" height="12" fill="#000000"></rect>
+                                <rect x="54" y="12" width="10" height="8" fill="#000000"></rect>
+                                <rect x="70" y="12" width="16" height="8" fill="#000000"></rect>
+                                <rect x="54" y="26" width="14" height="8" fill="#000000"></rect>
+                                <rect x="76" y="26" width="10" height="8" fill="#000000"></rect>
+                                <rect x="14" y="56" width="20" height="8" fill="#000000"></rect>
+                                <rect x="40" y="56" width="18" height="8" fill="#000000"></rect>
+                                <rect x="60" y="50" width="20" height="20" fill="#16a34a"></rect>
+                                <text x="70" y="63" fill="#ffffff" font-size="9" font-weight="bold" text-anchor="middle">GS</text>
+                                <rect x="85" y="56" width="25" height="8" fill="#000000"></rect>
+                                <rect x="115" y="56" width="15" height="8" fill="#000000"></rect>
+                                <rect x="54" y="80" width="15" height="8" fill="#000000"></rect>
+                                <rect x="75" y="80" width="12" height="8" fill="#000000"></rect>
+                                <rect x="54" y="96" width="26" height="8" fill="#000000"></rect>
+                                <rect x="85" y="96" width="15" height="8" fill="#000000"></rect>
+                                <rect x="105" y="96" width="25" height="8" fill="#000000"></rect>
+                                <rect x="54" y="112" width="14" height="8" fill="#000000"></rect>
+                                <rect x="74" y="120" width="18" height="10" fill="#000000"></rect>
+                                <rect x="100" y="112" width="30" height="8" fill="#000000"></rect>
+                            </svg>
+                        </div>
+                        <div style="font-size:0.86rem; font-weight:700; color:#1e293b;">
+                            Official UPI ID: <span style="color:#16a34a; font-family:monospace;">greenlandschool@sbi</span>
+                        </div>
+                        <div style="font-size:0.75rem; color:#64748b; margin-top:2px;">
+                            Greenland School Education Trust | Verified Institutional Merchant
+                        </div>
+                        <div class="form-group" style="text-align:left; margin-top:14px;">
+                            <label class="form-label" style="font-weight:700; font-size:0.83rem;">UPI Transaction ID / 12-Digit UTR *</label>
+                            <input type="text" id="online-pay-utr" class="form-control" placeholder="e.g. 431289056214" style="font-family:monospace; font-weight:700; letter-spacing:1px;">
+                            <small style="color:#64748b; font-size:0.75rem;">Enter the reference number from your UPI payment app.</small>
+                        </div>
+                    </div>
+
+                    <!-- Net Banking Panel -->
+                    <div id="panel-pay-nb" style="display:none; background:#f8fafc; border:1px solid #cbd5e1; border-radius:10px; padding:16px; margin-top:12px;">
+                        <div style="font-size:0.83rem; font-weight:700; color:#1e3a8a; margin-bottom:8px;">
+                            DIRECT NET BANKING / NEFT / RTGS TRANSFER
+                        </div>
+                        <div style="font-size:0.82rem; line-height:1.6; color:#334155; background:#fff; padding:12px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:12px;">
+                            <div><strong>Account Name:</strong> Greenland School Education Trust</div>
+                            <div><strong>Account No:</strong> <span style="font-family:monospace; font-weight:700; color:#1e3a8a;">918237465012</span></div>
+                            <div><strong>IFSC Code:</strong> <span style="font-family:monospace; font-weight:700; color:#16a34a;">SBIN0002145</span> (State Bank of India)</div>
+                            <div><strong>Branch:</strong> Renukoot Commercial Branch</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" style="font-weight:700; font-size:0.83rem;">Select Originating Bank *</label>
+                            <select id="online-pay-bank" class="form-control">
+                                <option value="State Bank of India">State Bank of India (SBI)</option>
+                                <option value="HDFC Bank">HDFC Bank</option>
+                                <option value="ICICI Bank">ICICI Bank</option>
+                                <option value="Punjab National Bank">Punjab National Bank (PNB)</option>
+                                <option value="Axis Bank">Axis Bank</option>
+                                <option value="Bank of Baroda">Bank of Baroda</option>
+                                <option value="Other Commercial Bank">Other Commercial Bank</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" style="font-weight:700; font-size:0.83rem;">Net Banking Transaction Ref / UTR *</label>
+                            <input type="text" id="online-pay-nb-ref" class="form-control" placeholder="e.g. N260548912753" style="font-family:monospace; font-weight:700; letter-spacing:1px;">
+                            <small style="color:#64748b; font-size:0.75rem;">Enter bank reference received after completing transfer.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; gap:12px; padding:16px 20px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-pay-fee-online')">Cancel</button>
+                    <button type="submit" class="btn btn-primary" style="background:#16a34a; border-color:#16a34a; font-weight:700; padding:10px 24px; cursor:pointer;">
+                        <i class="fas fa-lock"></i> Authorize &amp; Confirm Payment
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Parent Edit Child Name via Aadhaar Verification -->
+    <div id="modal-parent-edit-student-name" class="modal-overlay">
+        <div class="modal-box" style="max-width:520px; width:100%;">
+            <div class="modal-header" style="background:#0f172a; color:#fff;">
+                <div>
+                    <h3 class="modal-title" style="color:#fff;"><i class="fas fa-user-edit"></i> Edit Child's Official Name</h3>
+                    <p style="font-size:0.78rem; color:#94a3b8; margin-top:2px;">Aadhaar Identity Verification Gateway</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-parent-edit-student-name')" style="color:#fff;">×</button>
+            </div>
+            <form onsubmit="submitParentEditChildName(event)">
+                <input type="hidden" id="edit-child-student-id">
+                <div class="modal-body" style="padding:20px;">
+                    <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:12px 14px; margin-bottom:16px; font-size:0.83rem; color:#1e40af; line-height:1.5;">
+                        <i class="fas fa-shield-alt" style="margin-right:6px;"></i>
+                        <strong>Identity Protection:</strong> To ensure academic records integrity, a student's official name can only be edited upon 100% verification against their registered <strong>12-Digit Aadhaar Number</strong>.
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" style="font-weight:600; color:#64748b;">Current Name in School Registry</label>
+                        <input type="text" id="edit-child-current-name" class="form-control" readonly="" style="background:#f1f5f9; color:#334155; font-weight:700;">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" style="font-weight:700; color:#0f172a;">New Corrected Full Name *</label>
+                        <input type="text" id="edit-child-new-name" class="form-control" required="" placeholder="Enter child's updated official name" style="font-weight:600;">
+                    </div>
+
+                    <div class="form-group" style="background:#fff1f2; border:1.5px solid #fecdd3; padding:14px; border-radius:8px; margin-top:16px;">
+                        <label class="form-label" style="color:#9f1239; font-weight:700; display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                            <span><i class="fas fa-id-card"></i> Student's 12-Digit Aadhaar Number *</span>
+                            <span style="font-size:0.72rem; background:#e11d48; color:#fff; padding:2px 8px; border-radius:10px;">Verification Check</span>
+                        </label>
+                        <input type="text" id="edit-child-aadhaar-verify" class="form-control" required="" maxlength="12" pattern="[0-9]{12}" inputmode="numeric" placeholder="Enter ward's exact 12-digit Aadhaar number" style="font-family:monospace; letter-spacing:2px; font-size:1.05rem; font-weight:700; border-color:#fb7185; background:#fff;" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 12);">
+                        <small style="color:#be123c; display:block; margin-top:4px; font-size:0.75rem; font-weight:600;">
+                            Must match the 12-digit Aadhaar number registered during school admission.
+                        </small>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; gap:12px; padding:16px 20px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-parent-edit-student-name')">Cancel</button>
+                    <button type="submit" class="btn btn-primary" style="background:#1e3a8a; border-color:#1e3a8a; font-weight:700; padding:10px 22px; cursor:pointer;">
+                        <i class="fas fa-check-double"></i> Verify Aadhaar &amp; Update Name
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Accountant Request Payment Deletion -->
+    <div id="modal-request-payment-delete" class="modal-overlay">
+        <div class="modal-box" style="max-width:500px; width:100%;">
+            <div class="modal-header" style="background:#b91c1c; color:#fff;">
+                <div>
+                    <h3 class="modal-title" style="color:#fff;"><i class="fas fa-exclamation-triangle"></i> Request Payment Deletion</h3>
+                    <p style="font-size:0.78rem; color:#fecdd3; margin-top:2px;">Fee &amp; Accounts Department Wrong Payment Removal Flow</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-request-payment-delete')" style="color:#fff;">×</button>
+            </div>
+            <form onsubmit="submitRequestPaymentDelete(event)">
+                <input type="hidden" id="req-del-payment-id">
+                <div class="modal-body" style="padding:20px;">
+                    <div style="background:#fff1f2; border:1px solid #fecdd3; border-radius:8px; padding:12px 14px; margin-bottom:14px; font-size:0.83rem; color:#9f1239; line-height:1.5;">
+                        <i class="fas fa-info-circle"></i> <strong>Dual-Approval Workflow:</strong> Accountant cannot directly delete payment records. Once submitted, <strong>Admin (Principal)</strong> must approve first, then <strong>Super Admin</strong> must approve before it is permanently deleted from the database.
+                    </div>
+                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px 14px; margin-bottom:14px;">
+                        <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                            <span style="color:#64748b; font-size:0.82rem;">Receipt Reference:</span>
+                            <strong id="req-del-ref" style="font-family:monospace; color:#1e3a8a;">-</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                            <span style="color:#64748b; font-size:0.82rem;">Student Name:</span>
+                            <strong id="req-del-student" style="color:#0f172a;">-</strong>
+                        </div>
+                        <div style="display:flex; justify-content:space-between;">
+                            <span style="color:#64748b; font-size:0.82rem;">Paid Amount:</span>
+                            <strong id="req-del-amount" style="color:#15803d; font-size:0.95rem;">-</strong>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" style="font-weight:700; color:#0f172a;">Reason for Wrong Payment Deletion *</label>
+                        <textarea id="req-del-reason" class="form-control" rows="3" required="" placeholder="e.g. Wrongly processed duplicate transaction / Erroneous student ledger credited / Fee entry typo..."></textarea>
+                        <small style="color:#64748b; font-size:0.75rem;">This justification will be reviewed by Principal and Super Admin.</small>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; gap:12px; padding:16px 20px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-request-payment-delete')">Cancel</button>
+                    <button type="submit" class="btn btn-primary" style="background:#b91c1c; border-color:#b91c1c; font-weight:700; padding:10px 22px; cursor:pointer;">
+                        <i class="fas fa-paper-plane"></i> Submit Deletion Request
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Review Payment Deletion Request (Admin & Super Admin) -->
+    <div id="modal-review-payment-delete" class="modal-overlay">
+        <div class="modal-box" style="max-width:520px; width:100%;">
+            <div class="modal-header" id="review-del-header" style="background:#0f172a; color:#fff;">
+                <div>
+                    <h3 class="modal-title" id="review-del-title" style="color:#fff;">Review Payment Deletion Request</h3>
+                    <p style="font-size:0.78rem; color:#94a3b8; margin-top:2px;" id="review-del-subtitle">Greenland School Financial Authorization</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-review-payment-delete')" style="color:#fff;">×</button>
+            </div>
+            <form onsubmit="submitReviewPaymentDelete(event)">
+                <input type="hidden" id="review-del-request-id">
+                <input type="hidden" id="review-del-action">
+                <div class="modal-body" style="padding:20px;">
+                    <div id="review-del-summary-card" style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:14px; margin-bottom:14px;">
+                        <!-- Injected via JS -->
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" style="font-weight:700; color:#0f172a;">Reviewer Notes / Instructions</label>
+                        <textarea id="review-del-notes" class="form-control" rows="2" placeholder="Optional review remarks, audit notes, or approval comment..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; gap:12px; padding:16px 20px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-review-payment-delete')">Cancel</button>
+                    <button type="submit" id="review-del-confirm-btn" class="btn btn-primary" style="font-weight:700; padding:10px 22px; cursor:pointer;">
+                        Confirm Action
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Modal: Add Special Salary / Diwali Bonus (Owner Exclusive) -->
+    <div id="modal-add-special-bonus" class="modal-overlay">
+        <div class="modal-box" style="max-width:540px; width:100%;">
+            <div class="modal-header" style="background:linear-gradient(135deg, #6d28d9, #4c1d95); color:#fff;">
+                <div>
+                    <h3 class="modal-title" style="color:#fff;"><i class="fas fa-gift"></i> Executive Special Salary / Bonus</h3>
+                    <p style="font-size:0.78rem; color:#ddd6fe; margin-top:2px;">Owner (Director) Exclusive Sanction Authority</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-add-special-bonus')" style="color:#fff;">×</button>
+            </div>
+            <form onsubmit="submitAddSpecialBonus(event)">
+                <div class="modal-body" style="padding:20px;">
+                    <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-radius:8px; padding:12px 14px; margin-bottom:14px; font-size:0.83rem; color:#5b21b6; line-height:1.5;">
+                        <i class="fas fa-crown" style="color:#7c3aed;"></i> <strong>Director Exclusive Right:</strong> Only the Owner (Director) has the executive privilege to grant festival bonuses (e.g. Diwali Bonus) and special salary supplements. All supplements automatically integrate into the monthly faculty payroll ledger.
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Bonus Title / Occasion *</label>
+                        <input type="text" id="special-bonus-title" class="form-control" value="Diwali Festival Bonus 2026" placeholder="e.g. Diwali Festival Bonus 2026, Excellence Reward" required="">
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Bonus Amount (₹) *</label>
+                            <input type="number" id="special-bonus-amount" class="form-control" value="10000" min="500" step="100" placeholder="e.g. 10000" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Payout Month &amp; Year *</label>
+                            <div style="display:flex; gap:8px;">
+                                <select id="special-bonus-month" class="form-control" style="flex:1;">
+                                    <option value="11" selected="">November (Diwali)</option>
+                                    <option value="12">December</option>
+                                    <option value="10">October</option>
+                                    <option value="1">January</option>
+                                </select>
+                                <select id="special-bonus-year" class="form-control" style="width:90px;">
+                                    <option value="2026" selected="">2026</option>
+                                    <option value="2027">2027</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Eligible Faculty Members</label>
+                        <select id="special-bonus-teacher" class="form-control">
+                            <option value="all">🌟 All Teaching Faculty (School-Wide Special Bonus)</option>
+                            <option value="3">Teacher Chike (Senior Faculty)</option>
+                            <option value="4">Teacher Sarah Adams (Faculty)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Director's Authorization Remarks / Notes</label>
+                        <textarea id="special-bonus-notes" class="form-control" rows="2" placeholder="Sanctioned by Director Virat Singh for Diwali festival celebration..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer" style="display:flex; justify-content:flex-end; gap:12px; padding:16px 20px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                    <button type="button" class="btn btn-outline" onclick="closeModal('modal-add-special-bonus')">Cancel</button>
+                    <button type="submit" class="btn btn-primary" style="background:#6d28d9; border-color:#6d28d9; font-weight:700; padding:10px 22px; cursor:pointer;">
+                        🎁 Authorize &amp; Incorporate into Payroll
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: View Inquiry & Notification Dispatch Details -->
+    <div id="modal-view-inquiry" class="modal-overlay">
+        <div class="modal-box" style="max-width:640px; width:100%;">
+            <div class="modal-header" style="background:#0f172a; color:#fff;">
+                <div>
+                    <h3 class="modal-title" id="inq-modal-title" style="color:#fff;"><i class="fas fa-envelope-open-text"></i> Candidate Admission Inquiry</h3>
+                    <p style="font-size:0.78rem; color:#94a3b8; margin-top:2px;">Online Inquiry Details &amp; Multi-Channel Dispatch Ledger</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-view-inquiry')" style="color:#fff;">×</button>
+            </div>
+            <div class="modal-body" id="inq-modal-body" style="padding:20px;">
+                <!-- Populated dynamically via app.js -->
+            </div>
+            <div class="modal-footer" id="inq-modal-footer" style="display:flex; justify-content:space-between; align-items:center; padding:14px 20px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                <button type="button" class="btn btn-outline" onclick="closeModal('modal-view-inquiry')">Close</button>
+                <div id="inq-modal-actions" style="display:flex; gap:8px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: View & Print Official Salary Slip -->
+    <div id="modal-view-salary-slip" class="modal-overlay">
+        <div class="modal-box" style="max-width:760px; width:95%; max-height:92vh; overflow-y:auto;">
+            <div class="modal-header no-print" style="background:#1e3a8a; color:#fff;">
+                <div>
+                    <h3 class="modal-title" style="color:#fff;"><i class="fas fa-file-invoice-dollar"></i> Official Faculty Salary Payslip</h3>
+                    <p style="font-size:0.78rem; color:#bfdbfe; margin-top:2px;">Greenland School Automated Faculty Compensation Slip</p>
+                </div>
+                <button class="modal-close" onclick="closeModal('modal-view-salary-slip')" style="color:#fff;">×</button>
+            </div>
+            <div class="modal-body" id="salary-slip-printable-content" style="padding:28px; background:#fff;">
+                <!-- Populated dynamically via app.js -->
+            </div>
+            <div class="modal-footer no-print" style="display:flex; justify-content:space-between; align-items:center; padding:16px 24px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+                <button type="button" class="btn btn-outline" onclick="closeModal('modal-view-salary-slip')">Close</button>
+                <button type="button" class="btn btn-primary" onclick="printElement('salary-slip-printable-content')" style="display:inline-flex; align-items:center; gap:8px; font-weight:700;">
+                    <i class="fas fa-print"></i> Print Official Salary Slip
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Application Scripts -->
+    <script src="js/app.js"></script>
+
+
+</body></html>
