@@ -20,7 +20,7 @@ from email.mime.text import MIMEText
 import email.utils as email_utils
 from datetime import datetime, timedelta
 
-PORT = 5000
+PORT = int(os.environ.get("PORT", 5000))
 DB_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "school.db")
 
 # 7 Unique Demo Accounts with Distinct User IDs and Passwords for Greenland School
