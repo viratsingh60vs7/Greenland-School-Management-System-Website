@@ -7155,11 +7155,11 @@ def run_server():
     with server as httpd:
         print(f"===============================================================")
         print(f"  GREENLAND SCHOOL (GS) - School Management System & Website")
-        print(f"  IPv4 Link:          http://127.0.0.1:{actual_port}")
+        print(f"  IPv4 Link:          http://10.75.6.1:{actual_port}")
         print(f"  Localhost Link:     http://localhost:{actual_port}")
-        print(f"  SMS Portal Login:   http://127.0.0.1:{actual_port}#login")
-        print(f"  SMS Portal:         http://127.0.0.1:{actual_port}#portal")
-        print(f"  Campus Mobile App:  http://127.0.0.1:{actual_port}#app")
+        print(f"  SMS Portal Login:   http://10.75.6.1:{actual_port}#login")
+        print(f"  SMS Portal:         http://10.75.6.1:{actual_port}#portal")
+        print(f"  Campus Mobile App:  http://10.75.6.1:{actual_port}#app")
         print(f"===============================================================")
         try:
             httpd.serve_forever()
